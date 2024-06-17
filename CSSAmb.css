@@ -1,0 +1,331 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    background-color:#e0eafc;
+    font-family: Times New Roman;
+}
+
+header {
+    background-image: linear-gradient(to right, #333399, #22c1c3, #ee0979);
+    color: white;
+    padding: 35px;
+    font-family: Times New Roman;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 10px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+nav.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+h2 {text-align: center;
+    font-size: 4em;
+    font-family: Times New Roman;
+    background-image: linear-gradient(to right, #00B4DB, #0083B0);
+    height: 95px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+page{text-align: center;
+    font-size: 1.5em;
+    font-family: Times New Roman;
+    background-image: linear-gradient(to right, #00B4DB, #0083B0);
+    height: 65px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;}
+
+h3 {
+    font-size: 1.5em;
+    font-family: Times New Roman;
+    text-align:justify;
+    margin: -110px;
+}
+
+
+
+center {
+    text-align: justify;
+    font-size: 0.8em;
+    font-family: Times New Roman;
+}
+
+p, h7 {
+    color: black;
+}
+
+.compte {
+    text-align: justify;
+    font-size: 1.6em;
+    font-family: Times New Roman;
+}
+
+h6 {
+    font-family: Times New Roman;   
+    color: black;
+    text-align: center;
+    
+}
+
+h5 {
+    font-family: Times New Roman;
+   
+    color: black;
+    text-align: center;
+    margin:-110px ;
+}
+
+
+.color1 {
+    color: brown;
+}
+
+.color2 {
+    color: brown;
+}
+
+.color7 {
+    color: navy;
+}
+
+.color8 {
+    color: black;
+    font-family: helvetica;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.btn {
+    background-color: #0056b3;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #bc4e9c, #f80759);
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.tech {
+    background-color: #0056b3;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #bc4e9c, #f80759);
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.svc {
+    background-color: #0056b3;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, #bc4e9c, #f80759);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.début {
+    font-weight: 400;
+}
+
+.fi {
+    color: navy;
+}
+
+.fin {
+    color: brown;
+}
+
+.introduction {
+    font-weight: 600;
+}
+
+div {
+    text-align: center;
+}
+
+.ma-classe {
+    color: black;
+}
+
+.ma-classe2 {
+    color: brown;
+}
+
+.ambassade {
+    font-size: 2em;
+    font-family: Times New Roman;
+}
+
+.mission {
+    font-size: 0.9em;
+    font-family: Times New Roman;
+}
+
+.email {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.email img {
+    margin-right: 5px;
+}
+
+.email span {
+    color: navy;
+    font-size: 3em;
+    font-family: Times New Roman;
+}
+
+footer {
+    background-image: linear-gradient(to right, #314755, #26a0da, #314755);
+    padding: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 2em;
+        height: auto;
+        width: 90%;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .btn, .tech, .svc {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .email span {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    .btn, .tech, .svc {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .email span {
+        font-size: 1em;
+    }
+}
